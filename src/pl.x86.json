@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.2.2",
+	"version": "1.2.8",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -78,10 +78,10 @@
 			"display-name": "AutoSave",
 			"version": "1.6.0.0",
 			"id": "a5f25488aa7e15930d0ddf4de93569f6c391a38f1394a3e3820982c5b120fae0",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/AutoSave_dll_1v60_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_1v60_x32.zip",
 			"description": "Automatically save the currently open files based on a timer schedule and/or upon the application losing focus.\r\nThe plugin offers several options to save the current (or all the files), selecting only the named ones, accessible through an options dialog box.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "Autosave2",
@@ -106,9 +106,9 @@
 		{
 			"folder-name": "BigFiles",
 			"display-name": "BigFiles - Open Very Large Files",
-			"version": "0.1.1.1",
-			"id": "781128DCC29C2E59D6F5103380FD30E011899B515B1D3CA99385734B6A10982D",
-			"repository": "https://github.com/superolmo/BigFiles/releases/download/0.1.1.1.x86/BigFiles.zip",
+			"version": "0.1.3",
+			"id": "27E2761DA531C90BA855971F939DF34BFA211B18A863E3B5D907A48615D531D7",
+			"repository": "https://github.com/superolmo/BigFiles/releases/download/v0.1.3.x86/BigFiles.zip",
 			"description": "Reads very large files. It does this by only showing a small buffer of the file and let the user move back anf forth in the page.\r\nThis is useful when you want to preview very large text files. Opening is done separately from Notepad++ and there is no option to save.\r\nhttps://github.com/superolmo/BigFiles",
 			"author": "Claudio Olmi",
 			"homepage": "https://github.com/superolmo/BigFiles"
@@ -136,22 +136,12 @@
 		{
 			"folder-name": "CADdyTools",
 			"display-name": "CADdyTools",
-			"version": "1.0.1.5",
-			"id": "f8ef6d234c4833d85b84a55d342c6ea4b700179c9cb52f505ae728862fc0d5b8",
-			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.1.5/CADdyTools_v1015_x86.zip",
+			"version": "1.1.3.7",
+			"id": "7ccbfb712e3b6757137f4921de6e6f4f83f9c258248137690c0dd5de9262c5dd",
+			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.1.3.7/CADdyTools_v1137_x86.zip",
 			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
 			"author": "Mario Rosenbohm",
 			"homepage": "https://github.com/MarioRosi/CADdyTools"
-		},
-		{
-			"folder-name": "NppCCompletionPlugin",
-			"display-name": "CCompletion",
-			"version": "1.19",
-			"id": "f3bdf4b7cbe0cd76b4d9ae2880ccde369c16f20326f89f3d0e83cd8e58169247",
-			"repository": "http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip",
-			"description": "Code autocompletion plugin, with other useful features like listing functions / variables, quicky moving to their definition and easily returning to where you were before",
-			"author": "Bostjan Mihoric",
-			"homepage": ""
 		},
 		{
 			"folder-name": "CodeAlignmentNpp",
@@ -172,6 +162,16 @@
 			"description": "Write code, level up, show off! A free stats tracking service for programmers. Enables XP tracking in Notepad++.",
 			"author": "p0358",
 			"homepage": "https://github.com/p0358/notepadpp-CodeStats"
+		},
+		{
+			"folder-name": "ColumnTools",
+			"display-name": "ColumnTools",
+			"version": "1.4.1.1",
+			"id": "438a673cd2fbeb2fff8a4fae9f744cf31c869988a31ce23b02f808255fd6c4d0",
+			"repository": "https://github.com/vinsworldcom/nppColumnTools/releases/download/1.4.1.1/ColumnTools-v1.4.1.1-x86.zip",
+			"description": "Notepad++ Highlight Current Column and Horizontal Ruler",
+			"author": "Vin's World",
+			"homepage": "https://github.com/vinsworldcom/nppColumnTools"
 		},
 		{
 			"folder-name": "combine",
@@ -196,9 +196,9 @@
 		{
 			"folder-name": "ComparePlugin",
 			"display-name": "Compare",
-			"version": "2.0.0",
-			"id": "cf69a8436f01bee252ce29c42b019d9c135ad78496085dfc7b21b126cc79981d",
-			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.0_npp7.7/ComparePlugin_v2.0.0_npp7.7_x86.zip",
+			"version": "2.0.1",
+			"id": "07972c1c7e3012a46ac6ef133a6500ca851bddc9c83471df2f118519a0241ed5",
+			"repository": "https://github.com/pnedev/compare-plugin/releases/download/v2.0.1/ComparePlugin_v2.0.1_x86.zip",
 			"description": "Shows the differences between 2 files (side by side).",
 			"author": "Ty Landercasper, Jean-Sebastien Leroy, Pavel Nedev",
 			"homepage": "https://github.com/jsleroy/compare-plugin"
@@ -296,9 +296,9 @@
 		{
 			"folder-name": "DSpellCheck",
 			"display-name": "DSpellCheck",
-			"version": "1.4.16",
-			"id": "9bcc46c1fdafb9cf278cd52316d0d0fa838c2d1c1950de8550fbfd0321be1d7a",
-			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.16/DSpellCheck_x86.zip",
+			"version": "1.4.20",
+			"id": "8e94ea3bce549f3b8834a87ed30494c3321769fdd3ca1e56b58bd4539ef7b604",
+			"repository": "https://github.com/Predelnik/DSpellCheck/releases/download/v1.4.20/DSpellCheck_x86.zip",
 			"description": "Spell-checking with these main features:\r\n-Underlining spelling mistakes\r\n-Iterating through all mistakes in document\r\n-Finding mistakes only in comments and strings (For files with standard programming language syntax e.g. C++)\r\n-Possible usage of multiple languages (dictionaries) simultaneously to do spell-checking.\r\n-Getting suggestions for words by either using default Notepad++ menu or separate context menu called by special button appearing under word.\r\n-Able to add words to user dictionary or ignore them for current session of Notepad++\r\n-Using either Hunspell library (included in plugin) or Aspell library (needs to be installed).\r\n-A lot of customizing available from Plugin settings (Ignoring/Allowing only specific files, Choosing delimiters for words, Maximum number of suggestions etc)\r\n-Support for downloading and removing Hunspell dictionaries through user friendly GUI interface\r\n-Ability to quickly change current language through the nice menu.",
 			"author": "Sergey Semushin",
 			"homepage": "https://github.com/Predelnik/DSpellCheck"
@@ -309,7 +309,7 @@
 			"version": "0.4.0",
 			"id": "d5e76e32dd8a06c4b9e3c2c057ca0849cee466c2e608c0ad04907f68698db850",
 			"repository": "https://github.com/editorconfig/editorconfig-notepad-plus-plus/releases/download/v0.4.0/NppEditorConfig-040-x86.zip",
-			"description": "Helps define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readibly and work nicely with version control systems.",
+			"description": "EditorConfig is a text file that defines coding conventions for a project to help maintain them consistent no matter which text editor you use. This plugin adds support for .editorconfig files to Notepad++. It will automatically discover and apply matching .editorconfig settings to the files that you open for editing. For the EditorConfig recommended use, file format and samples, visit https://editorconfig.org/.",
 			"author": "EditorConfig Team",
 			"homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus"
 		},
@@ -324,11 +324,21 @@
 			"homepage": "https://github.com/dail8859/ElasticTabstops"
 		},
 		{
+			"folder-name": "ERPHelper",
+			"display-name": "ERP Helper",
+			"version": "1.0.0",
+			"id": "983f6fdf2b6685d05517d6c6572075d6182a29909fc0c70943a06d491a35fd61",
+			"repository": "https://github.com/swhitley/ERPHelper/releases/download/Latest/ERPHelper_x86.zip",
+			"description": "A set of utilities for developing ERP integrations, includes XSL transformation and Workday API SOAP calls.",
+			"author": "Whitley Media",
+			"homepage": "https://github.com/swhitley/erphelper"
+		},
+		{
 			"folder-name": "Explorer",
 			"display-name": "Explorer",
-			"version": "1.9.2.0",
-			"id": "c5a63f8ecfd50e6dc7fb5f24dd8c4d4d781fcdf9ed61cfc8652ae5e8ad7c3907",
-			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.2/Explorer.zip",
+			"version": "1.9.3.0",
+			"id": "e8adce3767177612cec9b3d3a7d4e7eeb3c2ae1a3d467f9ef6cd1078570718fe",
+			"repository": "https://github.com/oviradoi/npp-explorer-plugin/releases/download/v1.9.3/Explorer.zip",
 			"description": "File browser. You can open whatever you want from it in Notepad++, just double click!",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/oviradoi/npp-explorer-plugin"
@@ -384,6 +394,16 @@
 			"homepage": "https://sourceforge.net/projects/fingertext/"
 		},
 		{
+			"folder-name": "FWDataViz",
+			"display-name": "Fixed-width Data Visualizer",
+			"version": "1.0.0.0",
+			"id": "ab72c1a7398283cf99548677931c17c94d7b916db1bff5d8cc5f1351144cf498",
+			"repository": "https://github.com/shriprem/FWDataViz/releases/download/1.0.0.0/FWDataViz_x86.zip",
+			"description": "Fixed Width Data Visualizer plugin for Notepad++. Displays cursor position data. Jumps to specific fields. Builtin dialogs to configure file-type, record-type & fields; and themes & colors. Handles homogenous, mixed & multi-line records.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/FWDataViz"
+		},
+		{
 			"folder-name": "GedcomLexer",
 			"display-name": "GEDCOM Lexer",
 			"version": "0.4.0.140",
@@ -396,9 +416,9 @@
 		{
 			"folder-name": "GitSCM",
 			"display-name": "GitSCM",
-			"version": "1.4.3.1",
-			"id": "f908a4487ddbb4c089bbec6d966767d0682395fd4fc4e645c8c964ad43ff67e4",
-			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.3.1/GitSCM-v1.4.3.1-x86.zip",
+			"version": "1.4.4.2",
+			"id": "e14196aba29585fdc2bf22b589ba6389f529ffa795d86a397a2509039c85c8fa",
+			"repository": "https://github.com/vinsworldcom/nppGitSCM/releases/download/1.4.4.2/GitSCM-v1.4.4.2-x86.zip",
 			"description": "N++ Gui for already installed Git SCM for Windows. Optionally TortoiseGit.",
 			"author": "Michael J. Vincent",
 			"homepage": "https://github.com/vinsworldcom/nppGitSCM"
@@ -426,9 +446,9 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "1.1.0.0",
-			"id": "a7aa96a8d927398bac6a17e669d19c1ca5d6c6fb01c3be14b0ab5e69cabb6af2",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.1.0.0/GotoLineCol_x86.zip",
+			"version": "1.2.0.0",
+			"id": "bfd6b159f279edd8c222657205d1ab6a7acada486b3aeb351bb780e4de350997",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/1.2.0.0/GotoLineCol_x86.zip",
 			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
@@ -438,7 +458,7 @@
 			"display-name": "GrepBugs",
 			"version": "1.0.0",
 			"id": "0971e9eee0032f9c5f408f3c2d8176b2efc929677442683e6c79b77d3b62cf86",
-			"repository": "https://grepbugs.com/plugin/notepad%2B%2B",
+			"repository": "https://github.com/foospidy/GrepBugsPluginNotepadPlusPlus/releases/download/v1.0/GrepBugsPluginNpp.zip",
 			"description": "Downloads the latest regular expressions from GrepBugs.com and grep for matches in all open files. Requires .NET 4+",
 			"author": "Peter Parker",
 			"homepage": "https://grepbugs.com/plugins"
@@ -446,12 +466,12 @@
 		{
 			"folder-name": "HexEditor",
 			"display-name": "HEX-Editor",
-			"version": "0.9.5.0",
-			"id": "2352b9a8ad459bb9ce4d231d990d89f22d338aa446226f5c36ffa32dad7c3826",
-			"repository": "https://downloads.sourceforge.net/project/npp-plugins/Hex%20Editor/Hex%20Editor%20Plugin%20v0.9.5/HexEditor_0_9_5_UNI_dll.zip",
+			"version": "0.9.8.0",
+			"id": "1cd429dcda6f495f632f7552890bbb13fac841d746f60b23edb4c6b4d2df0f62",
+			"repository": "https://github.com/chcg/NPP_HexEdit/releases/download/0.9.8/HexEditor_0.9.8_x86.zip",
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
-			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Hex%20Editor/"
+			"homepage": "https://github.com/chcg/NPP_HexEdit"
 		},
 		{
 			"folder-name": "HTMLTag_unicode",
@@ -526,9 +546,9 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "1.34",
-			"id": "70237c32e2c15c00da147e3acff07bbec963e5bcae2f3485678eeb08e7b124c1",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/1.34/NPPJSONViewer_Win32.zip",
+			"version": "1.40",
+			"id": "15feafd549e6f6916af0be81089cd297245c43fff25dab3076d69b41fbc990e2",
+			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v1.40/NPPJSONViewer_Win32.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani",
 			"homepage": "https://github.com/kapilratnani/JSON-Viewer"
@@ -548,10 +568,10 @@
 			"display-name": "LanguageHelp",
 			"version": "1.7.2.0",
 			"id": "422830f9b9978afbfb7951110a8a9e29ab4ca96f4364559b5ae227236348a6ab",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/LanguageHelp_dll_1v72_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v72_x32.zip",
 			"description": "Allows loading a language specific help file (CHM, HLP, PDF) and search for the keyword under the cursor.\r\nThe latest version allows showing the help files as menu entries or in the context menu.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "lexamples",
@@ -592,6 +612,16 @@
 			"description": "Allows filtering for a given text and display the matching lines in a new window.",
 			"author": "SeeliSoft",
 			"homepage": "https://www.seelisoft.net/Linefilter3/"
+		},
+		{
+			"folder-name": "linesort",
+			"display-name": "Linesort",
+			"version": "1.0.0.0",
+			"id": "bcc6d3f6a7bc5a1578b8007b4bd40ea5721dfae8875670fff8a5ff895f3c0013",
+			"repository": "http://www.scout-soft.com/linesort/linesort.zip",
+			"description": "Allows to sort lines.\r\n- Display search result in new Notepad++ window\r\n- Different sort options:\r\n-- sort selected text\r\n-- sort by leading numbers (numerically)\r\n-- sort by line length\r\n-- sort by characters from the right side of lines (x last characters)\r\n-- remove duplicates (unique lines in result)\r\n-- remove empty lines\r\n-- remove leading numbers",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/linesort"
 		},
 		{
 			"folder-name": "Linter",
@@ -658,10 +688,10 @@
 			"display-name": "MenuIcons",
 			"version": "1.2.2.0",
 			"id": "f10878fba05032fe159c94c7e4144a26f0f2971bd884e4e49bf890d7d2743124",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/MenuIcons_dll_1v22_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_1v22_x32.zip",
 			"description": "Allows adding icons to both main and context menu. Several options are available to load the icons from a folder. More than provide a full set of icons, it's design to enable people to create their own set of icon themes. Note: Does not work correctly in WinXP.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "mimeTools",
@@ -876,9 +906,9 @@
 		{
 			"folder-name": "NppExec",
 			"display-name": "NppExec",
-			"version": "0.6",
-			"id": "ee79ef41545d5ec2dbb13418d8602aa5963359a691ed0174dd07194f2cb83783",
-			"repository": "https://sourceforge.net/projects/npp-plugins/files/NppExec/NppExec%20Plugin%20v0.6%20RC2/NppExec_06RC2_dll.zip",
+			"version": "0.6.1",
+			"id": "015b786f45f9a73f09e0b256acad13d0160ad3ae11376ff43e28dc46fc20f56b",
+			"repository": "https://github.com/d0vgan/nppexec/releases/download/v061/NppExec_061_dll.zip",
 			"description": "Execute commands or saved scripts without leaving Notepad++.",
 			"author": "Vitaliy Dovgan",
 			"homepage": "https://github.com/d0vgan/nppexec"
@@ -906,9 +936,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.6",
-			"id": "68d1aec9af701da641413d0a1db35960369b724d9fc08e16e6082bf1bf39303d",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.6/NppFTP-x86.zip",
+			"version": "0.29.7",
+			"id": "91b8dc1299e0a01c70bb0f269ea1fe4ed819aaa4bd33caf918eb9c53631884bc",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.7/NppFTP-x86.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -916,9 +946,9 @@
 		{
 			"folder-name": "NppGist",
 			"display-name": "NppGist",
-			"version": "1.3.0.20",
-			"id": "425312793abdc39f74b19b2a39cc54f2c828463be7c8c12ba51be177935fb314",
-			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.3.0/NppGist-x86-1.3.0.20.zip",
+			"version": "1.4.0.27",
+			"id": "d9cb72d577194e0bfab6ca163de19a3b8e5730c2015f674c1adacdc1b07960db",
+			"repository": "https://github.com/KvanTTT/NppGist/releases/download/1.4.0/NppGist-x86-1.4.0.27.zip",
 			"description": "Allows working with GitHub Gist (create, edit, remove, rename).",
 			"author": "Ivan Kochurkin (KvanTTT)",
 			"homepage": "https://github.com/KvanTTT/NppGist"
@@ -1018,10 +1048,10 @@
 			"display-name": "OpenSelection",
 			"version": "1.1.2.0",
 			"id": "4150c761b1795a96f03e469dcbf02ae7535fd7ea021011bd1d32ec23ddd8704e",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/OpenSelection_dll_1v12_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/OpenSelection/OpenSelection_dll_1v12_x32.zip",
 			"description": "Open files based on the selected text. A typical applications is 'include' files of may types of programs. Another applications is to open Matlab functions. Can be customized for different languages based on the open file extension. Multiple search folders may be specified along with multiple extensions.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "ccc",
@@ -1064,6 +1094,16 @@
 			"homepage": "https://fossil.2of4.net/npp_preview"
 		},
 		{
+			"folder-name": "print",
+			"display-name": "Print All",
+			"version": "1.0.0.0",
+			"id": "45229a9def21e2bb5ba6a3fbd8c1af5f3cd1855dfe90c322082d711e2a0b148b",
+			"repository": "http://www.scout-soft.com/print/print.zip",
+			"description": "Allows to print all currently opened texts.\r\n- automatically prints all texts that are currently open\r\n- uses \"Print now\".",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/print"
+		},
+		{
 			"folder-name": "PyNPP",
 			"display-name": "PyNPP",
 			"version": "1.2",
@@ -1076,9 +1116,9 @@
 		{
 			"folder-name": "Python Indent",
 			"display-name": "Python Indent",
-			"version": "1.0.0.2",
-			"id": "07dd51dd36f62ee22948aa690f8c17f47b583ec16515485acd8503beb02c0dd1",
-			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.2.zip",
+			"version": "1.0.0.3",
+			"id": "cf731dd33e7a0077d3bca5f32371d50718375f8cd4f491c12bebd49ca6970862",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20Win32%20v1.0.0.3.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
 			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
@@ -1116,9 +1156,9 @@
 		{
 			"folder-name": "QuickText",
 			"display-name": "QuickText",
-			"version": "0.1.4.1",
-			"id": "61dbd173fe00a755b0a53529f43d6826e4f7ee34d566b15f228dcd4817f652d2",
-			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.1.4.1/QuickText-v0.1.4.1-x86.zip",
+			"version": "0.2.1.1",
+			"id": "68976b44a3c5b356b681b209e53caadad154680831da15a71cf4061848bef668",
+			"repository": "https://github.com/vinsworldcom/nppQuickText/releases/download/0.2.1.1/QuickText-v0.2.1.1-x86.zip",
 			"description": "Quick text substitution, including multi-field inputs. Similar to Tab Triggers in TextMate.",
 			"author": "Joao Moreno, Jing Teng",
 			"homepage": "https://github.com/vinsworldcom/nppQuickText"
@@ -1164,6 +1204,16 @@
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
 		},
 		{
+			"folder-name": "RestApiToText",
+			"display-name": "RestApiToText",
+			"version": "1.1",
+			"id": "ad424d570742af4c252c003ad763f9827e8d7bdf449880034c1136e3809a7097",
+			"repository": "https://github.com/eljefe7000/RestApiToText/raw/master/Release/v1.1/RestApiToText.zip",
+			"description": "Make REST API calls using content from an editor tab, then see the results in a new tab.\r\nUseful when you want to test a REST API or store the results of a REST call, without the need for an external REST tool.",
+			"author": "Jeffrey Smith",
+			"homepage": "https://github.com/eljefe7000/RestApiToText"
+		},
+		{
 			"folder-name": "qkNppReverseLines",
 			"display-name": "Reverse Lines",
 			"version": "1.0.0.0",
@@ -1178,10 +1228,10 @@
 			"display-name": "RunMe",
 			"version": "1.4.0.0",
 			"id": "02c79efa32498b41e2ee9f469d7cc233c49185606a7e3bf97f7f267b34363c34",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/RunMe_dll_1v40_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v40_x32.zip",
 			"description": "Execute the currently open file, based on its shell association. Also allows opening an explorer or command shell at the file location. Options are available to save the current file (or all files) before execution. The executed file can be run in foreground, background, or hidden mode. Context menu entries and tool bar icons are available.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "NppSaveAsAdmin",
@@ -1226,9 +1276,9 @@
 		{
 			"folder-name": "SelectToClipboard",
 			"display-name": "Select to Clipboard",
-			"version": "1.0.1",
-			"id": "98989afa6f49bc1e16ecb09c1832165ee7047aa47d388b856b0b42a70273a54a",
-			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.1/SelectToClipboard_x86_v1.0.1.zip",
+			"version": "1.0.2",
+			"id": "bbfe20a7ba625638901d0f455dd7b7e6dde1da61c7be3431d3d6e16eaf5fe9f5",
+			"repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.2/SelectToClipboard_x86_v1.0.2.zip",
 			"description": "Auto copy selected text to clipboard. You can automatically copy selected text like in PuTTY (or similar) terminal application.",
 			"author": "Jakub Dvorak",
 			"homepage": "https://github.com/KubaDee/SelectToClipboard"
@@ -1266,9 +1316,9 @@
 		{
 			"folder-name": "NppSnippets",
 			"display-name": "Snippets",
-			"version": "1.5.1",
-			"id": "772f142d7040b4d199dc07b16ca8a69406ac89fe599ce982753bb10d77826b90",
-			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.5.1/NppSnippets-151-x32.zip",
+			"version": "1.6.0",
+			"id": "95d314a72a40ea1cda5af618da075dbe3aa52915ab7a89f90198c3f84dacb506",
+			"repository": "https://github.com/ffes/nppsnippets/releases/download/v1.6.0/NppSnippets-160-x32.zip",
 			"description": "Adds the possibility to add code snippets to the current document by selecting them from a simple list.",
 			"author": "Frank Fesevur",
 			"homepage": "https://www.fesevur.com/nppsnippets"
@@ -1292,6 +1342,16 @@
 			"description": "Correct your typos in your language. Before using, must install GNU Aspell and a dictionary for your language(s) in the Aspell directory. Aspell and dictionaries are available from http://aspell.net/win32",
 			"author": "Jens Lorenz",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/Spell-Checker/"
+		},
+		{
+			"folder-name": "sql",
+			"display-name": "SQL",
+			"version": "1.0.0.0",
+			"id": "6fb01eb7485d150a9e17ae89efd99b78e610e4594b35b33cd7b4462eb34f2b46",
+			"repository": "http://www.scout-soft.com/sql/sql.zip",
+			"description": "Allows to search\filter a CSV formatted text in a Notepad++ window using standard SQL queries.\r\n- Supports standard SQL statements",
+			"author": "Heinz",
+			"homepage": "http://www.scout-soft.com/sql"
 		},
 		{
 			"folder-name": "SQLinFormNpp",
@@ -1338,10 +1398,10 @@
 			"display-name": "TakeNotes",
 			"version": "1.2.0.0",
 			"id": "57564d8718265a5f7aa0804cecfd74a743a5ea69e75f5d0a0bcbc99684075c52",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/TakeNotes_dll_1v20_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v20_x32.zip",
 			"description": "Helps people who like to use Notepad++ for jotting quick notes. Instead of using unnamed 'new ?' files, this plugins allows to quickly create new empty files in a folder of choice. The file names may be custom generated using a mask and may contain details such as the user name, date, and time of creation so that unique files may be generated. Additionally, the plugin allows to load exiting notes in the folder of choice, save existing files as a note, and open the last saved note quickly. Please refer to the Options dialog box for more details. It is strongly recommended to use this plugin in combination with AutoSave to make sure that you never loose a note.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "NppTaskList",
@@ -1398,10 +1458,10 @@
 			"display-name": "TopMost",
 			"version": "1.4.0.0",
 			"id": "4e68fdd5ac499b2bbe885d3d6283d8d43e610cfa6e60f306f42ecdb9f8438e5a",
-			"repository": "https://sites.google.com/site/fstellari/nppplugins/TopMost_dll_1v40_x32.zip",
+			"repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v40_x32.zip",
 			"description": "Allows setting the main Notepad++ window as a topmost window so it can stay on top of other windows even when it is not active. Syncs with Notepad++'s own stay on top functionality and allows to remember the setting between restarts as well as to show a toolbar button.",
 			"author": "Franco Stellari",
-			"homepage": "https://sites.google.com/site/fstellari/nppplugins"
+			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
 			"folder-name": "Translate",
@@ -1426,9 +1486,9 @@
 		{
 			"folder-name": "WakaTime",
 			"display-name": "WakaTime",
-			"version": "4.1.0",
-			"id": "85230c140cb81e6ac334a0e55b44a280cf3616ce4d0ab2a55252a7c214761460",
-			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.1.0/WakaTime-4.1.0-x86.zip",
+			"version": "4.2.1",
+			"id": "c145a376d8d67c2a6c52b2aa933146e0f80cb58d14132b69239a35d3a418bae8",
+			"repository": "https://github.com/wakatime/notepadpp-wakatime/releases/download/4.2.1/WakaTime-4.2.1-x86.zip",
 			"description": "Automatic time tracking and metrics generated from your programming activity.\r\nVisit https://wakatime.com to see your logged time.",
 			"author": "WakaTime",
 			"homepage": "https://github.com/wakatime/notepadpp-wakatime"
@@ -1476,9 +1536,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.0.4.3",
-			"id": "d79ee0c74240b93acc59904ce1150be0a22ef38cc944d0f44522c2e5806e4b1f",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.4.3/XMLTools-3.0.4.3-x86.zip",
+			"version": "3.1.1.1",
+			"id": "cbbf9fa586e4d8c28be7eaf311ee220cea731dca1d4885c00e67ef40ff15b47b",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.1.1.1/XMLTools-3.1.1.1-x86.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
